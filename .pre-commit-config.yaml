@@ -1,0 +1,23 @@
+# Wave pre-commit hooks — all local, running from the project venv, so behavior
+# is deterministic and needs no network. Install with: pre-commit install
+repos:
+  - repo: local
+    hooks:
+      - id: no-secrets
+        name: block secrets in files (SPEC.md 0.6)
+        entry: .venv/bin/python scripts/check_secrets.py
+        language: system
+        # scan every staged file type; the script reads text safely
+        types: [text]
+
+      - id: ruff-check
+        name: ruff lint
+        entry: .venv/bin/ruff check --fix
+        language: system
+        types: [python]
+
+      - id: ruff-format
+        name: ruff format
+        entry: .venv/bin/ruff format
+        language: system
+        types: [python]

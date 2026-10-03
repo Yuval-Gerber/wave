@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# PyInstaller output
+build/
+dist/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# Databases — never commit trading data
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+
+# Local config may reference the machine; secrets live in Keychain, never in files
+config.toml
+
+# Environment files must never exist in this project (secrets go in Keychain),
+# but ignore them defensively anyway
+.env
+.env.*
+
+# Recorded market data (re-fetchable from Polygon via the scripts beside them)
+research/menu_breadth/*.csv
