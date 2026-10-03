@@ -15,6 +15,11 @@ Wave is a full trading system I designed and built end-to-end: a real-time scann
 
 It ran a continuous multi-week 24/5 **paper-trading** campaign against Alpaca's live market feeds, managing dozens of concurrent positions per day fully autonomously — entries, scale-outs, trailing stops, halts, short-sale restrictions, reconnects and all.
 
+<p align="center">
+  <img src="assets/screenshots/app.png" width="900" alt="Wave — liquid-glass dashboard"/>
+  <br/><em>The dashboard — native macOS liquid glass, here idle with the market closed.</em>
+</p>
+
 ## What's inside
 
 **The engine** (asyncio, headless-capable)
@@ -35,11 +40,31 @@ It ran a continuous multi-week 24/5 **paper-trading** campaign against Alpaca's 
 - **Honest validation, enforced.** Labels come from intraday triple-barrier outcomes; evaluation uses walk-forward splits and purged cross-validation (naive k-fold leaks badly on overlapping intraday data); nothing is promoted on in-sample performance, ever. The rule the whole project runs on: a backtest win is a hypothesis, not evidence.
 - **A simulator that shares the live code paths.** Event-driven replay through the same actor/risk/gate code that trades live — spread crossing, slippage by symbol class, partial fills, LULD halts and SSR days as state changes — so research results and live behavior can't silently diverge.
 
+<p align="center">
+  <img src="assets/screenshots/brain.png" width="900" alt="The Brain — ML tab"/>
+  <br/><em>The ML tab — the Brain in shadow mode, with its training ledger: every candidate becomes a lesson.</em>
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/scanner_mind.png" width="900" alt="Wave's mind — scanner canvas"/>
+  <br/><em>The Scanner tab — "Wave's mind": a living galaxy where every particle is a symbol, with the news ticker on top (demo headlines shown).</em>
+</p>
+
 **The app**
 
 - Native macOS look (Apple HIG, liquid-glass materials), fully custom PyQt6 UI: animated one-line wave logo that reflects engine state, hover-expanding sidebar with live connection dots, position cards with per-second P&L and judge-stance chips, an animated "scanner mind" galaxy, a stepped equity curve, a virtualized log browser with full-text search, and Touch ID-gated settings.
 - **Telegram bridge** — status, positions and P&L on demand; dangerous commands (pause/stop/kill) require a one-time confirmation code; live/paper switching is deliberately impossible remotely.
 - **Security** — all secrets live in the macOS Keychain, never in files; Touch ID gates every dangerous action; a log filter redacts anything token-shaped before it can reach any log destination.
+
+<p align="center">
+  <img src="assets/screenshots/performance.png" width="900" alt="Performance tab"/>
+  <br/><em>The Performance tab — stepped account-value curve (so buys never dip the graph), per-trade win/loss markers, hover scrubbing.</em>
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/system.png" width="900" alt="System tab"/>
+  <br/><em>The System tab — connections, the risk limits in force, market clock, feed heartbeats, the news-brain budget and the live fee schedule.</em>
+</p>
 
 ## Architecture
 
