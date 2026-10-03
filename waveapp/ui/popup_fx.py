@@ -1,4 +1,4 @@
-"""Modal open animation (Phase 8.14, SPEC.md §5): every modal is a centered
+"""Modal open animation (Phase 8.14, §5): every modal is a centered
 card over a dimmed backdrop with a subtle scale animation. One helper, used
 by all overlay popups, so they feel identical.
 

@@ -1,4 +1,4 @@
-"""Logging pipeline → SQLite `log` table (SPEC.md §13, Phase 3).
+"""Logging pipeline → SQLite `log` table (§13, Phase 3).
 
 A queue + worker thread keeps DB writes off the UI/engine threads. Categories
 are derived from logger names via the prefix map below; records at ERROR level

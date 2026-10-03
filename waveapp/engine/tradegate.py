@@ -1,4 +1,4 @@
-"""TradeGate (SPEC.md §8.4) — the cost gate, first-class and checked before
+"""TradeGate (§8.4) — the cost gate, first-class and checked before
 every entry. Hard rule 2: never weakened or bypassed.
 
 Refuse the trade unless:

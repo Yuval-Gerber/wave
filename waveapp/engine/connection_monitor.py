@@ -1,6 +1,6 @@
 """ConnectionMonitor (Phases 2–3): owns the broker connection AND the market
 DataHub, reporting health to the UI as (dot name, color, tooltip) updates.
-The UI never touches the adapter or the hub — it only observes (SPEC.md §3).
+The UI never touches the adapter or the hub — it only observes (§3).
 
 Behavior:
 - connects the AlpacaAdapter (paper) at startup; missing Keychain keys is a

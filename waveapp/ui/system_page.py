@@ -1,4 +1,4 @@
-"""System tab (Phase 8.8, SPEC.md §5 tab 4): connection health, feed
+"""System tab (Phase 8.8, §5 tab 4): connection health, feed
 heartbeats, engine state, session regime + countdown to the next boundary,
 DB stats, app version, and the fee-schedule constants currently in force.
 

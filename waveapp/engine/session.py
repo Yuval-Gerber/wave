@@ -1,4 +1,4 @@
-"""SessionScheduler (SPEC.md §6): the trading week as regimes.
+"""SessionScheduler (§6): the trading week as regimes.
 
 PRE (04:00–09:30 ET) → OPEN_DRIVE (09:30–10:30) → MIDDAY (10:30–15:00, with
 the 11:30–13:30 lull flagged) → POWER_HOUR (15:00–16:00) → POST (16:00–20:00)

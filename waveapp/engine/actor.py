@@ -1,4 +1,4 @@
-"""PositionActor (SPEC.md §3, §8): one independent asyncio task per
+"""PositionActor (§3, §8): one independent asyncio task per
 position, owning its lifecycle. State machine:
 
     PENDING_ENTRY → OPEN → SCALING_OUT → CLOSING → CLOSED | HALTED | ERROR

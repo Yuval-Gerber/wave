@@ -1,4 +1,4 @@
-"""DataHub (SPEC.md §3, Phase 3): live market data over Alpaca's websocket
+"""DataHub (§3, Phase 3): live market data over Alpaca's websocket
 (IEX feed), 1-minute bar building from raw trades, and the heartbeat/staleness
 watchdog the RiskEngine will consume in Phase 5 (§12: stale feed → freeze
 entries, rely on server-side stops).

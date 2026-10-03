@@ -1,4 +1,4 @@
-"""Entry strategies (SPEC.md §8.1) — Phase 7.2.
+"""Entry strategies (§8.1) — Phase 7.2.
 
 Each strategy is a pluggable class producing EntrySignal(symbol, side,
 confidence, reason) with a concrete initial stop. Direction ALWAYS comes from

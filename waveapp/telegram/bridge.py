@@ -1,7 +1,7 @@
-"""TelegramBridge (SPEC.md §13, Phase 4).
+"""TelegramBridge (§13, Phase 4).
 
 Commands: /status /positions /pnl /pause /resume /stop /kill /help.
-Security (SPEC.md §4):
+Security (§4):
 - bot token lives in Keychain (entry `telegram_bot_token`), never in files;
 - ONLY the numeric Telegram user ID is accepted — every other sender is
   silently ignored (and logged);
@@ -94,7 +94,7 @@ class PendingConfirmation:
 
 @dataclass
 class ConfirmationGate:
-    """One-time confirmation codes for dangerous commands (SPEC.md §13)."""
+    """One-time confirmation codes for dangerous commands (§13)."""
 
     ttl: float = CONFIRM_TTL_SECONDS
     time_fn: Callable[[], float] = time.monotonic

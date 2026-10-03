@@ -1,4 +1,4 @@
-"""App configuration (SPEC.md §4).
+"""App configuration (§4).
 
 `~/Library/Application Support/Wave/config.toml` holds settings and Keychain
 entry *names* only — never secrets. Reading is tolerant: a missing file yields

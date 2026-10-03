@@ -1,4 +1,4 @@
-"""EngineCore (SPEC.md §3, Phase 5): owns the actors, routes broker events,
+"""EngineCore (§3, Phase 5): owns the actors, routes broker events,
 implements the Pause/Stop/Kill semantics and reconciliation. The UI and the
 TelegramBridge both command it through the same public methods (the
 CommandBus); neither ever touches the broker directly.

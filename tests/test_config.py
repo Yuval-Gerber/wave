@@ -27,7 +27,7 @@ def test_unknown_keys_preserved(tmp_path):
 
 
 def test_config_never_contains_secret_material(tmp_path):
-    """The config file holds Keychain entry NAMES only (SPEC.md 0.6)."""
+    """The config file holds Keychain entry NAMES only (hard rule 6)."""
     path = tmp_path / "config.toml"
     AppConfig().save(path)
     text = path.read_text()

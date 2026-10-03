@@ -1,4 +1,4 @@
-"""Login authentication (SPEC.md §4).
+"""Login authentication (§4).
 
 - Password: argon2id hash stored in Keychain (never on disk). Failed attempts
   are logged; there is NO lockout — removed at the instruction (Phase 8.2

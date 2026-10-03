@@ -1,4 +1,4 @@
-"""Wave visual theme (SPEC.md §5): Apple/macOS design language (HIG).
+"""Wave visual theme (§5): Apple/macOS design language (HIG).
 
 Light appearance, hand-crafted QSS on Apple's HIG palette — community-measured
 hex approximations of the adaptive system colors (Apple publishes semantics,

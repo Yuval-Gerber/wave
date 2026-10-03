@@ -97,7 +97,7 @@ class PlayButton(QWidget):
 
 
 class PauseStopButton(QWidget):
-    """First click = Pause, second click = Stop (SPEC.md §3 semantics).
+    """First click = Pause, second click = Stop (§3 semantics).
     The glyph morphs between pause bars and the square stop."""
 
     pause_clicked = pyqtSignal()

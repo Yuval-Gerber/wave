@@ -1,4 +1,4 @@
-"""Positions tab (Phase 8.4, SPEC.md §5): a grid of live position cards —
+"""Positions tab (Phase 8.4, §5): a grid of live position cards —
 symbol, side, qty, entry, live P&L ($ and %), current stop, exit-stage badge
 (BE / TRAIL / SCALED), strategy tag, SSR/halt badge — with pagination dots
 when cards overflow the grid. The engine feeds `update_positions` snapshots;

@@ -1,4 +1,4 @@
-"""IBKRAdapter (SPEC.md §1, §3): built into v1 behind the same interface,
+"""IBKRAdapter (§1, §3): built into v1 behind the same interface,
 deliberately DORMANT until capital justifies foreign-exchange fees. Enabling
 it later must require zero engine changes — hence it compiles against the full
 BrokerAdapter ABC today, and every operation raises DormantAdapterError.
@@ -25,7 +25,7 @@ from waveapp.broker.base import (
     TradingMode,
 )
 
-_DORMANT_MESSAGE = "IBKRAdapter is dormant in v1 (SPEC.md §1) — use AlpacaAdapter"
+_DORMANT_MESSAGE = "IBKRAdapter is dormant in v1 (§1) — use AlpacaAdapter"
 
 
 def _dormant() -> DormantAdapterError:

@@ -1,4 +1,4 @@
-"""Broker abstraction (SPEC.md §3, Phase 2).
+"""Broker abstraction (§3, Phase 2).
 
 Hard rules encoded here, not in call sites:
 - Rule 7: paper and live are separated at the type level. `TradingMode` is
@@ -121,7 +121,7 @@ class OrderRequest:
     side: OrderSide
     order_type: OrderType
     time_in_force: TimeInForce
-    client_order_id: str  # idempotency key, derived per SPEC.md §3
+    client_order_id: str  # idempotency key, derived per §3
     limit_price: float | None = None
     stop_price: float | None = None
     stop_loss: StopLoss | None = None  # bracket leg — server-side stop
@@ -176,7 +176,7 @@ class BrokerAdapter(ABC):
     def __init__(self, mode: TradingMode) -> None:
         if mode is TradingMode.LIVE:
             raise LiveTradingLockedError(
-                "LIVE trading is locked until the Phase 11 gate (SPEC.md 0.1)"
+                "LIVE trading is locked until the Phase 11 gate (hard rule 1)"
             )
         self._mode = mode
 

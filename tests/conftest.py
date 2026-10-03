@@ -1,5 +1,5 @@
 """Shared test fixtures. Qt runs offscreen; Keychain is always mocked so tests
-never touch the real macOS Keychain (SPEC.md: tests mock around security,
+never touch the real macOS Keychain (tests mock around security,
 never through it)."""
 
 from __future__ import annotations

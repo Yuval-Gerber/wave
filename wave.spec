@@ -1,4 +1,4 @@
-# PyInstaller spec — Wave.app (onedir BUNDLE, ad-hoc signed per SPEC.md §2).
+# PyInstaller spec — Wave.app (onedir BUNDLE, ad-hoc signed per §2).
 # Build with: scripts/build_app.sh
 
 from waveapp import __version__  # single version source (Phase 9)

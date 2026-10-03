@@ -1,4 +1,4 @@
-"""Touch ID hard gates (SPEC.md §4).
+"""Touch ID hard gates (§4).
 
 One helper used by every gated action: paper→live switch, risk edits,
 key rotation, kill switch, weekly-halt re-arm, kill re-arm. No session

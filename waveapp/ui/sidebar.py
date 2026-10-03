@@ -1,4 +1,4 @@
-"""Left sidebar (SPEC.md §5): icon-only rail (~56px) that expands on hover
+"""Left sidebar (§5): icon-only rail (~56px) that expands on hover
 (~200px, animated) showing labels, plus connection status dots at the bottom
 (Alpaca, Data feed, Telegram, DB) — all grey in Phase 1."""
 

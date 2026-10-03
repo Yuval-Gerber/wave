@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pre-commit guard (SPEC.md hard rule 6): no secrets in files, ever.
+"""Pre-commit guard (hard rule 6): no secrets in files, ever.
 
 Scans staged file contents for broker/Telegram key patterns and private keys.
 Exits non-zero (blocking the commit) on any hit.
@@ -55,7 +55,7 @@ def main(argv: list[str]) -> int:
                     print(f"BLOCKED: {rel}:{lineno}: looks like a {label}")
                     failed = True
     if failed:
-        print("\nSecrets never go in files (SPEC.md §0.6). Use macOS Keychain via keyring.")
+        print("\nSecrets never go in files (§0.6). Use macOS Keychain via keyring.")
     return 1 if failed else 0
 
 

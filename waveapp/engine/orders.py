@@ -1,4 +1,4 @@
-"""Idempotent order identity (SPEC.md §3).
+"""Idempotent order identity (§3).
 
 Every order Wave sends carries a client order ID derived from
 (position_uuid, action, attempt). On reconnect the engine reconciles broker

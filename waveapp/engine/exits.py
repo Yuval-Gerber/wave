@@ -1,4 +1,4 @@
-"""The adaptive exit system (SPEC.md §8.2) — Phase 6.
+"""The adaptive exit system (§8.2) — Phase 6.
 
 Seven layers, all active simultaneously; the binding constraint wins. All stop
 math is ATR-based (fast intraday ATR(14) on 1-minute bars, parameterized) so

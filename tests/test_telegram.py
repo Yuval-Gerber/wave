@@ -39,7 +39,7 @@ def test_only_yuvals_id_is_authorized():
 
 
 def test_no_live_paper_switching_exists():
-    """SPEC.md §4/§13: mode switching must not exist over Telegram."""
+    """§4/§13: mode switching must not exist over Telegram."""
     for name in dir(TelegramBridge):
         assert "live" not in name.lower()
         assert "mode" not in name.lower()

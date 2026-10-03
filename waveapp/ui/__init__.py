@@ -1,4 +1,4 @@
-"""UI (SPEC.md §5, Phases 1 & 8): PyQt6 shell, animated wave logo top bar,
+"""UI (§5, Phases 1 & 8): PyQt6 shell, animated wave logo top bar,
 hover sidebar, and the six tabs. Observes engine state via Qt signals; commands
 go through the CommandBus only."""
 

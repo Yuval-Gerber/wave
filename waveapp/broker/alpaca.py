@@ -1,4 +1,4 @@
-"""AlpacaAdapter (SPEC.md §3, Phase 2) — the active broker, paper endpoints
+"""AlpacaAdapter (§3, Phase 2) — the active broker, paper endpoints
 only until the Phase 11 gate (the base class enforces this at construction).
 
 alpaca-py's TradingClient is synchronous, so calls run in a worker thread via

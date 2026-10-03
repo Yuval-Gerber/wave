@@ -1,4 +1,4 @@
-"""Log tab (Phase 8.9, SPEC.md §5 tab 5): a virtualized view over the
+"""Log tab (Phase 8.9, §5 tab 5): a virtualized view over the
 SQLite log.
 
 - full-text search (word or fragment), live with a 250ms debounce;

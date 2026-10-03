@@ -1,4 +1,4 @@
-"""Settings tab (Phase 8.10 → rework 2026-08-21, SPEC.md §5 tab 6).
+"""Settings tab (Phase 8.10 → rework 2026-08-21, §5 tab 6).
 
 Every edit saves to config.toml with the fresh-load pattern (never clobbers
 external edits). The rework (blueprint approved 2026-08-21) adds:

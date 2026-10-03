@@ -1,4 +1,4 @@
--- Wave schema v1 (SPEC.md §13). All timestamps are UTC ISO-8601 strings.
+-- Wave schema v1 (§13). All timestamps are UTC ISO-8601 strings.
 -- Migrations are applied in numeric order inside one transaction each and
 -- are never destructive without asking first (hard rule 11).
 

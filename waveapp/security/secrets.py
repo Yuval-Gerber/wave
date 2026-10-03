@@ -1,4 +1,4 @@
-"""Keychain access (SPEC.md §0.6): every secret lives in macOS Keychain.
+"""Keychain access (§0.6): every secret lives in macOS Keychain.
 Nothing here ever writes a secret to disk.
 
 THE VAULT (2026-09-02 — after macOS's hidden partition-list

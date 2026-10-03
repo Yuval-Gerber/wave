@@ -1,4 +1,4 @@
-"""Main window (SPEC.md §5): top bar, hover sidebar, six pages, fully
+"""Main window (§5): top bar, hover sidebar, six pages, fully
 resizable with a sensible minimum size. Layouts reflow; nothing overlaps or
 scrolls.
 

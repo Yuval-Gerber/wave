@@ -1,4 +1,4 @@
-"""SQLite persistence (SPEC.md §13): WAL mode, one file per environment
+"""SQLite persistence (§13): WAL mode, one file per environment
 (`wave_paper.db` / `wave_live.db`), numbered SQL migrations applied
 automatically in order — never destructive without asking.
 

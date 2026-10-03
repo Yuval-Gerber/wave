@@ -1,4 +1,4 @@
-"""Performance tab (Phase 8.6, SPEC.md §5), drawn with pyqtgraph.
+"""Performance tab (Phase 8.6, §5), drawn with pyqtgraph.
 
 Round 2:
 - the graph lives on a WHITE card (same as position cards);

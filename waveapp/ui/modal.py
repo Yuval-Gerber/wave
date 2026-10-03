@@ -1,4 +1,4 @@
-"""WaveModal (8.1): the one modal template for the whole app (SPEC.md §5 —
+"""WaveModal (8.1): the one modal template for the whole app (§5 —
 "all modals are centered popup cards with dimmed backdrop and subtle
 scale/fade animation").
 

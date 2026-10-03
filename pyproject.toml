@@ -5,7 +5,7 @@ description = "Wave — autonomous US-equity daytrading bot with a PyQt6 desktop
 requires-python = ">=3.12"
 license = { text = "Proprietary" }
 
-# Runtime dependencies are added phase by phase (per SPEC.md §16).
+# Runtime dependencies are added phase by phase (per §16).
 dependencies = [
     # Phase 1 — app shell & security
     "PyQt6>=6.7",
@@ -22,7 +22,7 @@ dependencies = [
     "python-telegram-bot>=21.0",
     # Phase 8 — Apple glass materials (secured early, 2026-08-14)
     "pyqt-liquidglass>=0.1; sys_platform == 'darwin'",
-    # Phase 8.6 — Performance tab equity curve (SPEC.md §2 charts)
+    # Phase 8.6 — Performance tab equity curve (§2 charts)
     "pyqtgraph>=0.13",
 ]
 

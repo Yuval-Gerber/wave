@@ -1,4 +1,4 @@
-"""Monochrome line icons (SPEC.md §5 sidebar), drawn with QPainter — no
+"""Monochrome line icons (§5 sidebar), drawn with QPainter — no
 image assets. Each drawer paints into a normalized 24x24 box."""
 
 from __future__ import annotations

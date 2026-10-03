@@ -1,5 +1,5 @@
 #!/bin/zsh
-# Build Wave.app (onedir, ad-hoc signed — SPEC.md §2: personal use only,
+# Build Wave.app (onedir, ad-hoc signed — §2: personal use only,
 # no Developer ID / notarization). Run from the repo root:
 #   scripts/build_app.sh
 set -euo pipefail

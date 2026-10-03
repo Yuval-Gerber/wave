@@ -36,7 +36,7 @@ DB = Path.home() / "Library/Application Support/Wave/wave_paper.db"
 GAIN_AHEAD_R = 0.25  # forward upper barrier: "more profit ahead" (§II.11 #2)
 GIVEBACK_R = 0.50  # forward lower barrier: additional retrace from here
 K_STOP_ATR = 1.5  # fallback risk multiple — matches champion k_stop
-ATR_PERIOD = 14  # fast intraday ATR(14) on 1-min bars (SPEC.md §8.2)
+ATR_PERIOD = 14  # fast intraday ATR(14) on 1-min bars (§8.2)
 
 _polygon_client = None
 _polygon_cache: dict[tuple[str, str], list[MinuteBar]] = {}

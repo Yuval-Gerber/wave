@@ -1,4 +1,4 @@
-"""Scanner tab — "Wave's mind" (Phase 8.7, SPEC.md §5 tab 3).
+"""Scanner tab — "Wave's mind" (Phase 8.7, §5 tab 3).
 
 Top: the NeuralCanvas — an AI-brain particle network that fires on real
 scanner events (scan pulse, candidate found BLUE, gate-rejected RED with the

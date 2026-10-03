@@ -1,4 +1,4 @@
-"""RiskEngine (SPEC.md §12) — global, above all actors.
+"""RiskEngine (§12) — global, above all actors.
 
 Hard rule 2: nothing here may ever be weakened, bypassed or commented out.
 Tests mock AROUND these checks, never remove them.
@@ -206,7 +206,7 @@ class RiskEngine:
                 )
 
     def re_arm_weekly(self) -> None:
-        """Only callable from the Touch-ID-gated UI path (SPEC.md §4)."""
+        """Only callable from the Touch-ID-gated UI path (§4)."""
         if self._halt is HaltState.WEEKLY_LOSS:
             logger.warning("weekly loss halt re-armed manually")
             self._halt = HaltState.NONE

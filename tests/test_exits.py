@@ -1,6 +1,6 @@
 """Phase 6 step 6.1: the adaptive exit system on synthetic bar paths.
 
-SPEC.md Phase 6 mandates these scenarios:
+Phase 6 mandates these scenarios:
 - reversal at +0.3% banks profit
 - runner reaches trail
 - volume-death exit

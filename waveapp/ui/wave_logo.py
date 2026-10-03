@@ -1,4 +1,4 @@
-"""Animated one-line wave logo (SPEC.md §5, top bar).
+"""Animated one-line wave logo (§5, top bar).
 
 The line is the reference wave (traced from video — see
 `wave_shape.py`). The signature animation is the video's: the wave DRAWS

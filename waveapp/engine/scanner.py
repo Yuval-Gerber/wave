@@ -1,4 +1,4 @@
-"""Scanner (SPEC.md §9.1, Phase 7): the heuristic ranker.
+"""Scanner (§9.1, Phase 7): the heuristic ranker.
 
 The scanner is a RANKER, never a price predictor (hard rule 8): it scores
 *tradability* — will this symbol produce a clean, tradable move today — and
